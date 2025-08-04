@@ -62,7 +62,7 @@ await conn.sendFile(m.chat, pp, 'pp.jpg', text, m)
 }
 handler.help = ['infogp']
 handler.tags = ['group']
-handler.command = ['меню', 'groupinfo', 'infogp']
+handler.command = ['меню',]
 handler.group = true
 handler.register = true
 
