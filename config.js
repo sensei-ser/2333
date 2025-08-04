@@ -29,14 +29,14 @@ yt: "https://www.youtube.com",
 tiktok: "https://www.tiktok.com",
 md: "https://github.com",
 fb: "https://www.facebook.com",
-nn: "https://chat.whatsapp.com", //Grupo ofc1
-nn2: "https://chat.whatsapp.com", //Grupo ofc2
-nn3: "https://chat.whatsapp.com", //Colab Loli & Gata
-nn4: "https://chat.whatsapp.com", //Enlace Ванилька
-nn5: "https://chat.whatsapp.com", //A.T.M.M
-nn6: "https://chat.whatsapp.com", //Dev support 
-nna: "https://whatsapp.com",
-nna2: "https://whatsapp.com"
+nn: "77072763560", //Grupo ofc1
+nn2: "77072763560", //Grupo ofc2
+nn3: "77072763560", //Colab Loli & Gata
+nn4: "77072763560", //Enlace Ванилька
+nn5: "77072763560", //A.T.M.M
+nn6: "77072763560", //Dev support 
+nna: "77072763560",
+nna2: "77072763560"
 }
 
 //----------------------------------------------------

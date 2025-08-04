@@ -36,32 +36,27 @@ const selectedBot = allBots.find(bot => bot.user.jid === primary_bot)
 primaryBotMention = `@${primary_bot.split('@')[0]}`
 }
 
-const text = `『 ＩＮＦＯ ＤＥ ＧＲＵＰＯ 』
+const text = `『 Здравствуйте 』
 
-*• ID :* 
-${groupMetadata.id}
+✦✦✦ *КОМАНДЫ БОТА*✦✦✦
+             ━━━⊰ {V} ⊱━━━━
+   ★(писать в группе через #)★
 
-*• Nombre :* 
-${groupMetadata.subject}
+★🚷 #снести @ (удаляет)
+★❌ #выключить приветствие 
+★✅ #включить приветствие 
+★✅ #включить антиссылка (удаляет за ссылки на группы ватсап) 
+★❌ #выключить антиссылка (не удаляет за ссылки на группы ватсап) 
+★✅ #включить антиссылка2 (удаляет ссылки тик ток, инстаграм, телеграм) 
+★❌ #выключить антиссылка2 (не удаляет за ссылки на тик ток, инстаграм, телеграм) 
+ ★🗣️ #вызов ПРИВЕТ, либо выделить текст и написать #вызов (отправляет уведомление всей группе)
+★🚻 #внимание (вызывает всю группу)
+★😶 #молчуны 
+   ✦✦✦━━━⊰ {V} ⊱━━━━✦✦✦
+⚠️ *Ознакомтесь с правильностью команд*
 
-*• Miembros :*
-${participants.length}
 
-*• Creador del grupo :*
-@${owner.split('@')[0]}
 
-*• Admins :*
-${listAdmin.join('\n')}
-
-*• 𝙲𝙾𝙽𝙵𝙸𝙶𝚄𝚁𝙰𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 :*
-• Bot : ${modoadmin ? 'Apagado 📴' : `${primaryBotMention || 'Online ✅'}`} 
-• Bienvenida: ${welcome ? '✅' : '❌'}
-• AntiLink: ${antilink ? '✅' : '❌'}
-• AntiFake: ${antifake ? '✅' : '❌'}
-• Detect: ${detect ? '✅' : '❌'}
-• Modo horny: ${modohorny ? '✅' : '❌'}
-• NSFW horario permitido: ${nsfw_horario ? `🕒 (${nsfw_horario})` : '❌'}
-• Grupo baneado: ${banned ? '🚫 Sí' : '✅ No'}
 `.trim()
 await conn.sendFile(m.chat, pp, 'pp.jpg', text, m)
 }
